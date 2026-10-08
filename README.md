@@ -74,7 +74,7 @@ The full design is in [`docs/`](docs): the PRD (`01`), tech spec (`02`), schema 
 | Validation in the backend | The domain and the database (UI validation is only a convenience) | The conformance and API tests |
 | A per-task audit log in the UI | The **Activity** pane in the card popup | The end-to-end and component tests |
 | No auth, roles or complicated UI | None built. The actor is a dropdown | See _Accepted risks_ |
-| The README, the answers to the questions, and the AI note | This file, and `JAWABAN.md` | |
+| The README, the answers to the questions, and the AI note | This file, and `ANSWER.md` | |
 
 **About scope, honestly.** The brief asks for a simple app and says it doesn't grade by feature count. The core in the table above is small. On top of it I built, at the product owner's request, a Trello-style board with drag and drop, editing a card's title and description, assigning a user, and a Tailwind and shadcn interface. They all reuse the same audited, forward-only core (an edit or an assignment is itself audited), and each is tested, but they are extras. The core is the API, the shared package, the audit log and the activity view.
 
@@ -110,7 +110,7 @@ Real authentication (taking the actor from a session), roles, optimistic locking
 
 ## Questions from the brief
 
-_The same four answers, in Indonesian and in more detail, are in [JAWABAN.md](JAWABAN.md)._
+_The same four answers, in Indonesian and in more detail, are in [ANSWER.md](ANSWER.md)._
 
 **How do I make sure the audit log can't be modified?** With several layers, so that one failing doesn't expose it:
 1. No code path or route changes or deletes it. The store has no method that edits or removes an entry, and any `PUT`, `PATCH`, `POST` or `DELETE` to an audit URL gets a 404.

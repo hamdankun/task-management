@@ -19,7 +19,7 @@ task-manager/
 ├── scripts/dev.mjs           # runs the API and the web app together
 ├── CLAUDE.md                 # rules for AI assistants working in this repo
 ├── README.md                 # how to run it, architecture, assumptions, trade-offs, the answers, AI disclosure
-├── JAWABAN.md                # the brief's questions answered in Indonesian
+├── ANSWER.md                # the brief's questions answered in Indonesian
 ├── assessment-context.md     # the original brief (not edited)
 ├── docs/                     # 00 to 08 (06 is the security review, 07 the UI design, 08 the build notes)
 ├── .claude/agents/           # the react-fullstack-engineer helper agent

@@ -25,7 +25,7 @@ Task statuses change and nobody can tell who changed them or when. The app has t
 | R7 | A task's status and its audit log always agree | One database transaction covers both |
 | R8 | The backend enforces the flow; checking in the frontend is optional | The backend is the authority; the UI only offers valid actions |
 | R9 | The actor comes from a hardcoded user list, picked in a dropdown | `GET /api/actors` and the `X-Actor` header |
-| R10 | React + TypeScript, Node + Express + TypeScript, a public repo, a README with specific answers | Monorepo, README, `JAWABAN.md` |
+| R10 | React + TypeScript, Node + Express + TypeScript, a public repo, a README with specific answers | Monorepo, README, `ANSWER.md` |
 | R11 | No auth, roles or complicated UI | Left out on purpose |
 
 ## Where the brief is vague, and what I assumed

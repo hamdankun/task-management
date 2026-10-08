@@ -293,7 +293,7 @@ click a card, and a popup opens:
 
 1. A public GitHub repository (monorepo) with a working frontend and backend.
 2. `README.md`: how to run both, the architecture, assumptions, trade-offs, and what I'd improve with more time.
-3. Written answers to the brief's questions: how audit-log tampering is prevented, what is riskiest with many users, and what to refactor first (in the README, and in Indonesian in `JAWABAN.md`).
+3. Written answers to the brief's questions: how audit-log tampering is prevented, what is riskiest with many users, and what to refactor first (in the README, and in Indonesian in `ANSWER.md`).
 4. An AI-usage note: which parts AI helped with and how I checked each.
 5. Tests that pass with `npm test`.
 
