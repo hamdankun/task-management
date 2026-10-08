@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+package-lock.json
+apps/web/src/components/ui
+docs
+*.md
+.claude
+playwright-report
+test-results

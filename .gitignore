@@ -1,0 +1,15 @@
+node_modules
+dist
+coverage
+test-results
+playwright-report
+apps/api/data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+.env*
+.claude/settings.local.json
+.DS_Store
+assessment-context.md
+CLAUDE.md
