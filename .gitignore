@@ -12,4 +12,6 @@ apps/api/data/
 .claude/settings.local.json
 .DS_Store
 assessment-context.md
-CLAUDE.md.claude/
+CLAUDE.md
+
+.claude/
