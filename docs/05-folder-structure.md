@@ -22,7 +22,6 @@ task-manager/
 ├── ANSWER.md                # the brief's questions answered in Indonesian
 ├── assessment-context.md     # the original brief (not edited)
 ├── docs/                     # 00 to 08 (06 is the security review, 07 the UI design, 08 the build notes)
-├── .claude/agents/           # the react-fullstack-engineer helper agent
 │
 ├── packages/
 │   └── shared/               # @tm/shared: plain TypeScript; its only runtime dependency is zod
